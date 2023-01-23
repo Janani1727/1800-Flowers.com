@@ -1,0 +1,36 @@
+{
+  "name": "flower18",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.16",
+    "@chakra-ui/react": "^2.4.9",
+    "@chakra-ui/theme": "^2.2.5",
+    "@chakra-ui/theme-tools": "^2.0.17",
+    "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@next/font": "13.1.2",
+    "axios": "^1.2.3",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.2",
+    "firebase": "^9.16.0",
+    "framer-motion": "^8.4.7",
+    "next": "13.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-scroll": "^1.8.9",
+    "react-stars": "^2.2.5",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1"
+  }
+}

@@ -1,0 +1,160 @@
+.htag {
+  font-size: 33px;
+  font-weight: 600;
+  font-family: PlayfairDisplayBold, serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.send {
+  display: flex;
+  width: 100%;
+  padding: 0 50px 0 50px;
+  margin-bottom: 50px;
+}
+.twoimage {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.twoimage > div {
+  width: 38%;
+}
+.htranding {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: PlayfairDisplayBold, serif;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.trendiv {
+  display: flex;
+  width: 100%;
+  padding: 0 10px 0 50px;
+  justify-content: center;
+}
+
+.trendiv > div {
+  display: flex;
+  width: 82%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.trendiv > div > div > img {
+  text-align: center;
+  width: 90%;
+}
+.htagShare {
+  display: flex;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: PlayfairDisplayBold, serif;
+  text-align: center;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 7px;
+}
+
+.divshare {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.divshare > div {
+  display: flex;
+  width: 94%;
+  justify-content: center;
+}
+
+.htagsome {
+  display: flex;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: PlayfairDisplayBold, serif;
+  text-align: center;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 7px;
+}
+.somediv {
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.somediv > div {
+  padding: 0 20px 0 20px;
+  width: 25%;
+}
+
+.powerimage {
+  width: 2%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .banner1 {
+    width: 100%;
+    /* height: 100px; */
+  }
+  .htag {
+    font-size: 20px;
+  }
+  .send {
+    display: grid;
+    grid-template-columns: repeat(1, 1rf);
+  }
+  .twoimage {
+    display: grid;
+    grid-template-columns: repeat(1, 1rf);
+    justify-content: center;
+    align-items: center;
+  }
+  .twoimage > div {
+    width: 88%;
+    justify-self: center;
+  }
+  .htranding {
+    font-size: 20px;
+  }
+  .trendiv {
+    padding: 0 10px 0 20px;
+  }
+  .trendiv > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1rf);
+    gap: 10px;
+    text-align: center;
+  }
+  .trendiv > div > div > img {
+    width: 100%;
+  }
+  .htagShare {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+  }
+  .divshare > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1rf);
+    gap: 5px;
+  }
+  .htagsome {
+    font-size: 20px;
+    text-align: center;
+  }
+  .somediv {
+    display: grid;
+    grid-template-columns: repeat(1, 1rf);
+    gap: 20px;
+  }
+  .somediv > div {
+    width: 100%;
+  }
+  .powerimage {
+    width: 10%;
+  }
+}
